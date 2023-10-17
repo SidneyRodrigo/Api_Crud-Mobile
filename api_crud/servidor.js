@@ -1,4 +1,4 @@
-const senhaDB = "xb7hUxfFbfX8kqbN"
+const senhaDB = ""
 
 const express = require("express");
 const mongoose = require("mongoose");
