@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Atualizar Usuário</title>
+</head>
+<body>
+    <h1>Atualizar Usuário</h1>
+
+    <form id="updateForm" action="/update" method="POST">
+        <input type="hidden" name="_method" value="PUT">
+        <label for="id">ID de Usuário:</label>
+        <input type="text" id="id" name="id" required><br>
+
+        <label for="usuario">Novo Nome de Usuário:</label>
+        <input type="text" id="usuario" name="usuario" required><br>
+
+        <label for="senha">Nova Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <button type="submit">Atualizar Usuário</button>
+    </form><br>
+
+    <!-- Botão para voltar à página inicial -->
+    <a href="/">Voltar para a Página Inicial</a>
+
+</body>
+</html>
